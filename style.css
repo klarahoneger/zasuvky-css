@@ -23,26 +23,35 @@ body {
 }
 
 .obrazek1,
-obrazek2,
-{
-grid-column: 1;
-grid-row: 1/4;
-background-color: cadetblue;
+.obrazek2,
+.obrazek3,
+.obrazek4 {
+    grid-column: 1;
+    grid-row: 1/4;
+    background-color: cadetblue;
 }
 
-.teplota1 {
+.teplota1,
+.teplota2,
+.teplota3,
+.teplota4 {
     grid-column: 2;
     grid-row: 1;
     background-color: crimson;
 }
 
-.vlhkost1 {
+.vlhkost1,
+.vlhkost2,
+.vlhkost3,
+.vlhkost4 {
     grid-column: 2;
     grid-row: 2;
     background-color: chartreuse;
 }
 
-.srazeni1 {
+.srazeni1 .srazeni2,
+.srazeni3,
+.srazeni4 {
     grid-column: 2;
     grid-row: 3;
     background-color: coral;
