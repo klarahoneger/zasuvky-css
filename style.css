@@ -49,7 +49,8 @@ body {
     background-color: chartreuse;
 }
 
-.srazeni1 .srazeni2,
+.srazeni1 
+.srazeni2,
 .srazeni3,
 .srazeni4 {
     grid-column: 2;
